@@ -17,7 +17,7 @@ const documentReady = () => {
         heroButtonNo.style.left = (Math.random() * window.innerWidth) + 'px';
     };
     
-    const partner = prompt('🥰 Dyme 2 naMe 🥰');
+    const partner = prompt('🥰 Dime tu nombre 🥰');
     heroTitle.innerHTML += partner + ' ❤';
 
     heroButtonSi.addEventListener('click', nowSomosNovios);
